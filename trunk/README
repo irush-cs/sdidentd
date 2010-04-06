@@ -1,0 +1,15 @@
+
+This is a simple ident (rcf 1413) daemon for Mac Os X. Currently, it
+compiles/work on 10.6 and above.
+
+To compile run:
+
+make
+
+To install run (with sudo):
+
+make install
+
+To run either reboot, or run (with sudo):
+launchctl load /Library/LaunchDaemons/sdidentd.plist
+

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>Disabled</key>
+    <false/>
+    <key>Label</key>
+    <string>il.ac.huji.cs.sdidentd</string>
+    <key>ProgramArguments</key>
+    <array>
+      <string>/usr/local/sbin/sdidentd</string>
+    </array>
+    <key>inetdCompatibility</key>
+    <dict>
+      <key>Wait</key>
+      <false/>
+    </dict>
+    <key>UserName</key>
+    <string>nobody</string>
+    <key>Sockets</key>
+    <dict>
+      <key>Listeners</key>
+      <dict>
+        <key>SockServiceName</key>
+        <string>ident</string>
+      </dict>
+    </dict>
+  </dict>
+</plist>
