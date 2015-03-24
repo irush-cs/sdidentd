@@ -1,0 +1,1 @@
+A (very) simple implementation of identd for Darwin/Mac Os X. More or less conforming to rfc 1413, except can't be configured in any way (i.e. can't lie about users). Works through launchd.
